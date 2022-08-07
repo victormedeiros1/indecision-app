@@ -14,6 +14,12 @@
   opacity: 0.5;
 }
 
+@media (max-width: $sm-screen) {
+  .big-button {
+    margin-bottom: $md-size;
+  }
+}
+
 // Button
 .button {
   background: $purple;
@@ -30,5 +36,3 @@
   color: $off-white;
   padding: 0;
 }
-
-// bem

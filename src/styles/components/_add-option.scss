@@ -10,6 +10,7 @@
 // Add Option
 .add-option {
   display: flex;
+  gap: $sm-size;
   padding: $md-size;
 }
 
@@ -19,6 +20,11 @@
   color: $off-white;
   border-bottom: 0.3rem solid darken($dark-blue, 10%);
   flex-grow: 1;
-  margin-right: $sm-size;
   padding: $sm-size;
+}
+
+@media (max-width: $sm-screen) {
+  .add-option {
+    flex-direction: column;
+  }
 }
